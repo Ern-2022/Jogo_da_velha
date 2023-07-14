@@ -16,7 +16,7 @@ def getinputvalido(mensagem):
  try:
   n = int(input(mensagem))
   if (n >= 1 and n <= 3):
-   return n
+   return n - 1
   else:
    print("O número precisa estar ebtre 1 e 3")
    return getinputvalido(mensagem)
